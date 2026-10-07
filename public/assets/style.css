@@ -97,6 +97,53 @@ a { color: inherit; }
 
 .btn-block { width: 100%; text-align: center; }
 
+.form-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.form-actions > .btn {
+  flex: 1 1 0;
+  min-width: 0;
+  width: auto !important;
+}
+
+.form-actions-inline {
+  width: auto;
+  flex: 0 0 auto;
+}
+
+.form-actions-inline > .btn {
+  flex: 0 0 auto;
+  padding: 8px 12px;
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
+.table-search .form-actions {
+  width: auto;
+}
+
+.plot-management-form .form-actions,
+#add-personal-form .form-actions,
+.inline-request-form .form-actions {
+  width: auto;
+}
+
+.claim-modal-actions .form-reset-button {
+  flex: 0 0 auto;
+}
+
+.form-reset-button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.form-reset-button:not(:disabled):hover { background: var(--cream-200); }
+
 /* ---------- Header ---------- */
 
 .site-header {

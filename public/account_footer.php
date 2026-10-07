@@ -17,4 +17,4 @@ $footerSupport = ($user['role'] ?? '') === 'customer'
     </div>
   </div>
 </footer>
-<script src="assets/required-form-buttons.js?v=1"></script>
+<script src="assets/required-form-buttons.js?v=4"></script>
